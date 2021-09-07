@@ -11,8 +11,8 @@ export default class Contact extends Component {
                             <br/>
                             <i className="fas fa-envelope-square"></i> vladworldss@yandex.ru
                             <br/>
-                            <i className="fab fa-chrome"></i> mywebsite.com/
-                            <br/>
+                            {/*<i className="fab fa-chrome"></i> mywebsite.com/*/}
+                            {/*<br/>*/}
                             <i className="fab fa-facebook-square"></i> 
                             <a  className="brown-text text-darken-4 pt" href="https://www.facebook.com/profile.php?id=100009868355804" target="_blank"> 
                             &nbsp;facebook.com</a>
