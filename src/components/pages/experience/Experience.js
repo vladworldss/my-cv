@@ -19,6 +19,17 @@ class Experience extends Component {
                                 <blockquote>
                                     <h6 className="brown-text text-darken-4">
                                         <strong>Back End Developer&nbsp;</strong>
+                                        <span>2021-till now</span>
+                                        <p className="brown-text text-darken-4"><strong>VK Pay, Moscow</strong></p>
+                                        <p>Developed asynchronous  API for customer platform.
+                                        Released functional was covered by unit and functional tests with CI/CD.
+                                        Used the Clean Architecture for refactoring first service implementation.
+                                        </p>
+                                    </h6>
+                                </blockquote>
+                                <blockquote>
+                                    <h6 className="brown-text text-darken-4">
+                                        <strong>Back End Developer&nbsp;</strong>
                                         <span>2019-2021</span>
                                         <p className="brown-text text-darken-4"><strong>Wargaming, Minsk</strong></p>
                                         <p>Developed new and maintains existing web applications. Used

@@ -10,7 +10,7 @@ class Summary extends Component {
                            <strong>ABOUT ME</strong>
                        </h6>
                        <p className="pt brown-text text-darken-4">
-                        Back End Developer who’s ready to implement interesting difficult tasks!
+                        Full Stack Web Developer who’s ready to implement interesting difficult tasks!
                         He has strong programming skills and a passion for developing applications.
                         He has experience in working from small team to big successful company. 
                         Have done numerous projects involving front and back end applications, framework and
