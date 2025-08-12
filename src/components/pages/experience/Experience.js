@@ -20,10 +20,26 @@ class Experience extends Component {
                                     <h6 className="brown-text text-darken-4">
                                         <strong>Back End Developer&nbsp;</strong>
                                         <span>2021-till now</span>
-                                        <p className="brown-text text-darken-4"><strong>VK Pay, Moscow</strong></p>
-                                        <p>Developed asynchronous  API for customer platform.
-                                        Released functional was covered by unit and functional tests with CI/CD.
-                                        Used the Clean Architecture for refactoring first service implementation.
+                                        <p className="brown-text text-darken-4">
+                                        <strong>
+                                        <a href="https://dbs-t.ru/" target="_blank" rel="noopener noreferrer">DBS Technologies, Moscow</a>
+                                        </strong>
+                                        </p>
+                                        <p>Developed
+                                        <a href="https://dbs-t.ru/aml" target="_blank" rel="noopener noreferrer"> AML Compliance </a>
+                                        software with
+                                        Kafka-based scoring pipelines and integrated AliExpress transaction data.
+                                        Designed and implemented microservices for receipt fiscalization and
+                                        correction in compliance with Uzbekistan’s tax regulations
+                                        <a href="https://dbs-t.ru/ofd" target="_blank" rel="noopener noreferrer"> OFD 1.0 </a>.
+                                        Built scalable APIs and dynamic dashboards for over 1,000 merchants,
+                                        processing 18K+ receipts daily.
+                                        </p>
+                                        <p>
+                                        Also implemented a chargeback processing service for disputed payments made via
+                                        AliExpress, using data from the National Payment Card System.
+                                        Applied Clean Architecture, asynchronous frameworks, and CI/CD practices
+                                        to ensure high-load resilience and testability.
                                         </p>
                                     </h6>
                                 </blockquote>
@@ -31,7 +47,11 @@ class Experience extends Component {
                                     <h6 className="brown-text text-darken-4">
                                         <strong>Back End Developer&nbsp;</strong>
                                         <span>2019-2021</span>
-                                        <p className="brown-text text-darken-4"><strong>Wargaming, Minsk</strong></p>
+                                        <p className="brown-text text-darken-4">
+                                        <strong>
+                                        <a href="https://wargaming.net/en" target="_blank" rel="noopener noreferrer">Wargaming, Minsk</a>
+                                        </strong>
+                                        </p>
                                         <p>Developed new and maintains existing web applications. Used
                                         microservice architecture for some services. Interacted regularly with
                                         managers, system designers. Follower of TDD, Unit-testing, code style,
@@ -44,7 +64,10 @@ class Experience extends Component {
                                     <h6 className="brown-text text-darken-4">
                                         <strong>UI Developer&nbsp;</strong>
                                         <span>2018-2019</span>
-                                        <p className="brown-text text-darken-4"><strong>Wargaming, Minsk</strong></p>
+                                        <p className="brown-text text-darken-4">
+                                        <strong>
+                                        <a href="https://wargaming.net/en" target="_blank" rel="noopener noreferrer">Wargaming, Minsk</a>
+                                        </strong></p>
                                         <p>Programming UI World of Tanks client 
                                             <a className="brown-text text-darken-4 pt" href="https://worldoftanks.com" target="_blank">
                                                 <strong > worldoftanks.com</strong>

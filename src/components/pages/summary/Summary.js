@@ -10,11 +10,14 @@ class Summary extends Component {
                            <strong>ABOUT ME</strong>
                        </h6>
                        <p className="pt brown-text text-darken-4">
-                        Full Stack Web Developer who’s ready to implement interesting difficult tasks!
-                        He has strong programming skills and a passion for developing applications.
-                        He has experience in working from small team to big successful company. 
-                        Have done numerous projects involving front and back end applications, framework and
-                        middleware, GUI and gameplay development.
+                       Experienced Full Stack Developer with a proven ability to tackle complex engineering tasks
+                       and build scalable web applications. Proficient in both back-end and front-end development,
+                       and well-versed in modern architectural approaches, microservices, CI/CD practices, and robust
+                       coding standards.
+                       </p>
+                       <p>
+                       Successfully contributed to teams ranging from small agile groups to large
+                       international corporations across fintech, game development and telecommunications industries.
                        </p>
                    </div>
                </div>
