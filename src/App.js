@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="wrap-content">
       <div className="container teal lighten-5">
-        <Router>
-          <Route exct path="/" component={Home} />
+        <Router basename="/my-cv"> {/* ← имя репозитория на GitHub */}
+          <Route exact path="/" component={Home} />
         </Router>
       </div>
       
