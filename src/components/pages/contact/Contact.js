@@ -1,34 +1,53 @@
 import React, { Component } from 'react';
 
-export default class Contact extends Component {
-    render() {
-        return (
-            <div>
-                <div className="card teal lighten-5 z-depth-0 mt">
-                    <div className="card-content contactInfo">
-                        <p className="brown-text text-darken-4 pt">
-                            <i className="fas fa-phone"> +375(44)51-444-16</i>
-                            <br/>
-                            <i className="fas fa-envelope-square"></i> vladworldss@yandex.ru
-                            <br/>
-                            {/*<i className="fab fa-chrome"></i> mywebsite.com/*/}
-                            {/*<br/>*/}
-                            <i className="fab fa-facebook-square"></i> 
-                            <a  className="brown-text text-darken-4 pt" href="https://www.facebook.com/profile.php?id=100009868355804" target="_blank"> 
-                            &nbsp;facebook.com</a>
-                            <br/>
-                            <i className="fa fa-linkedin"></i> 
-                            <a  className="brown-text text-darken-4 pt" href="https://www.linkedin.com/in/vladimir-gerasimenko-aa4014100/" target="_blank"> 
-                            &nbsp;linkedin.com</a>
-                            <br/>
-                            <i className="fab fa-github-square"></i> 
-                            <a  className="brown-text text-darken-4 pt" href="https://www.github.com/vladworldss" target="_blank"> 
-                            &nbsp;github.com/vladworldss</a>
-                        </p>
-                    </div>
+const Contact = () => {
+  const links = [
+    {
+      href: 'https://t.me/vladworld_ss',
+      icon: 'fab fa-telegram',
+      text: 'Telegram',
+      color: 'blue lighten-2',
+    },
+    {
+      href: 'https://github.com/vladworldss',
+      icon: 'fab fa-github',
+      text: 'GitHub',
+      color: 'grey darken-3',
+    },
+    {
+      href: 'https://www.linkedin.com/in/vladimir-gerasimenko-aa4014100/',
+      icon: 'fab fa-linkedin',
+      text: 'LinkedIn',
+      color: 'blue darken-4',
+    },
+  ];
 
-                </div>
+  return (
+    <div className="card teal lighten-1 z-depth-0">
+      <div className="card-content">
+        <h6 className="white-text">
+          <strong> # CONTACTS</strong>
+        </h6>
+        <hr />
+        <div className="row pt">
+          {links.map((link, index) => (
+            <div key={index} className="col m6 s12" style={{ marginBottom: '12px' }}>
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`btn ${link.color} waves-effect`}
+                style={{ width: '100%', textTransform: 'none' }}
+              >
+                <i className={link.icon} style={{ marginRight: '8px' }}></i>
+                {link.text}
+              </a>
             </div>
-        );
-    }
-}
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
